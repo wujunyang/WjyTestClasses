@@ -11,12 +11,12 @@
     "ios": “7.0”
   },
   "source": {
-    "git": "https://github.com/wujunyang/WjyTestClasses.git"
+    "git": "https://github.com/wujunyang/WjyTestClasses.git”,
+    "tag": “0.0.1”
   },
   "source_files": [
     "WjyTestClasses",
     "WjyTestClasses/**/*.{h,m}"
   ],
-  "frameworks": "Accelerate",
   "requires_arc": true
 }
