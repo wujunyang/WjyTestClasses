@@ -45,7 +45,6 @@
 }
 
 -(void)setImageWithUrl:(NSURL *)imgUrl placeholderImage:(UIImage *)placeholderImage tapBlock:(void(^)(id obj))tapAction{
-    [self sd_setImageWithURL:imgUrl placeholderImage:placeholderImage];
     [self addTapBlock:tapAction];
 }
 
