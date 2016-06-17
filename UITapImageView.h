@@ -2,7 +2,7 @@
 //  UITapImageView.h
 //  zxptUser
 //
-//  Created by wujunyang on 16/6/8.
+//  Created by wujunyang  on 16/6/8.
 //  Copyright © 2016年 qijia. All rights reserved.
 //
 
