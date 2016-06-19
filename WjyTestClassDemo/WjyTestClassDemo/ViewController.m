@@ -9,14 +9,22 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property(strong,nonatomic)UITapImageView *myImageView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    if (!self.myImageView) {
+        self.myImageView=[[UITapImageView alloc]initWithFrame:CGRectMake(100, 100, 50, 50)];
+        [self.myImageView addTapBlock:^(id obj) {
+            NSLog(@"我是插件");
+        }];
+        self.myImageView.backgroundColor=[UIColor redColor];
+        [self.view addSubview:self.myImageView];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

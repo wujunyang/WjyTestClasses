@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UITapImageView.h"
 
 @interface ViewController : UIViewController
 
