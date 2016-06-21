@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ADeanAppDelegate+Hook.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface wjyAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

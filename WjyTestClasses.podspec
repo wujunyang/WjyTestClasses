@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WjyTestClasses"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "这是一个简单的测试运用类"
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wujunyang/WjyTestClasses.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/wujunyang/WjyTestClasses.git", :tag => "0.0.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

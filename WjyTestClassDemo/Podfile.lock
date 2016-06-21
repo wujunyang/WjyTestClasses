@@ -1,10 +1,10 @@
 PODS:
-  - WjyTestClasses (0.0.2)
+  - WjyTestClasses (0.0.4)
 
 DEPENDENCIES:
   - WjyTestClasses
 
 SPEC CHECKSUMS:
-  WjyTestClasses: 8b5d7a4f3607c84d31c2316b579bdfebbc142fdc
+  WjyTestClasses: 049b3f1b2145c3935fbb80ea51d1c36bd549a5c2
 
 COCOAPODS: 0.39.0

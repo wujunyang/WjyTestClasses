@@ -22,13 +22,11 @@
 
 + (void)adean_AppDelegateHook
 {
-    if(NSClassFromString(@"AppDelegate"))
-    {
-    SwizzlingMethod(NSClassFromString(@"AppDelegate"), @selector(application:didFinishLaunchingWithOptions:), @selector(adean_application:didFinishLaunchingWithOptions:));
-    SwizzlingMethod(NSClassFromString(@"AppDelegate"), @selector(application:handleOpenURL:), @selector(adean_application:handleOpenURL:));
-    SwizzlingMethod(NSClassFromString(@"AppDelegate"), @selector(application:openURL:sourceApplication:annotation:), @selector(adean_application:openURL:sourceApplication:annotation:));
-    SwizzlingMethod(NSClassFromString(@"AppDelegate"), @selector(applicationDidReceiveMemoryWarning:), @selector(adean_applicationDidReceiveMemoryWarning:));
-    }
+    SwizzlingMethod([AppDelegate class], @selector(application:didFinishLaunchingWithOptions:), @selector(adean_application:didFinishLaunchingWithOptions:));
+    SwizzlingMethod([AppDelegate class], @selector(application:handleOpenURL:), @selector(adean_application:handleOpenURL:));
+    SwizzlingMethod([AppDelegate class], @selector(application:openURL:sourceApplication:annotation:), @selector(adean_application:openURL:sourceApplication:annotation:));
+    SwizzlingMethod([AppDelegate class], @selector(applicationDidReceiveMemoryWarning:), @selector(adean_applicationDidReceiveMemoryWarning:));
+    
 }
 
 #pragma mark - Method Swizzling

@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F159A6C308B26DB622B94483C2BB17F /* UITapImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E303CA86FE7A33777CC223F54B34CE /* UITapImageView.m */; };
+		05C5E73C3487E4A21359E2B7D786D39A /* UITapImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9338650E74683E09AA6C9135F3ACCEE5 /* UITapImageView.m */; };
+		1A62A14A5CE2A8BA0F7A04243E064679 /* ADeanMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 880D6DBA97950136EAFF00E42AC0543A /* ADeanMethodSwizzling.m */; };
 		3F0C33438EB8F40C8F3DBC781513C2B3 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		5052C88C09C0F477DEAB0DA1CFBC2BAE /* ADeanAppDelegate+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = A46F9ECF625A04EFEA2A2DD9DAA03461 /* ADeanAppDelegate+Hook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BEC54029630780A36A42D44E38A655C /* UITapImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6150E35763DFC74811B43993484FF5 /* UITapImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA1DB149EBE41A423A24E9B9F69116DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		BE3EE8616F6D75B1137F1D79D8A4DCA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		D1AC568281F56B95CE8710A99598ADDC /* UITapImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EF4720862769B657C3A20CBADFB9AF /* UITapImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E33C23941F78177455FE09A7D14D2D6F /* WjyTestClasses-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC131D4BD0F065D4DDC6021A28965EC /* WjyTestClasses-dummy.m */; };
+		C82D371CE541C45922060A150A032A32 /* ADeanAppDelegate+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 60246B56790402312AD9F0223BADF284 /* ADeanAppDelegate+Hook.m */; };
+		D87D1E1A2DD0EA140389F9FB3F56097C /* WjyTestClasses-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860529E10648B1D5755C8D99B0B1D16 /* WjyTestClasses-dummy.m */; };
+		E385F71137969ADAE9BA2CB80C2B132E /* ADeanMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFE182610621D38BB49DD51EE82F033 /* ADeanMethodSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,21 +31,25 @@
 
 /* Begin PBXFileReference section */
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		21EF4720862769B657C3A20CBADFB9AF /* UITapImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UITapImageView.h; path = Pod/Classes/UITapImageView.h; sourceTree = "<group>"; };
+		2478A52989351CFB556E163B51D5FC58 /* WjyTestClasses.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WjyTestClasses.xcconfig; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2A13418EB815F0C47D15A58A0BAF3932 /* WjyTestClasses-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WjyTestClasses-prefix.pch"; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DFE182610621D38BB49DD51EE82F033 /* ADeanMethodSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADeanMethodSwizzling.h; path = Pod/Classes/ADeanMethodSwizzling.h; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		60246B56790402312AD9F0223BADF284 /* ADeanAppDelegate+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ADeanAppDelegate+Hook.m"; path = "Pod/Classes/ADeanAppDelegate+Hook.m"; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		72D72EE402916AD4411A510C6FA3E8D3 /* libWjyTestClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWjyTestClasses.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D061FF51A15279A7A61D71EEA615791 /* WjyTestClasses-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WjyTestClasses-prefix.pch"; sourceTree = "<group>"; };
+		7860529E10648B1D5755C8D99B0B1D16 /* WjyTestClasses-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WjyTestClasses-dummy.m"; sourceTree = "<group>"; };
+		880D6DBA97950136EAFF00E42AC0543A /* ADeanMethodSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADeanMethodSwizzling.m; path = Pod/Classes/ADeanMethodSwizzling.m; sourceTree = "<group>"; };
+		9338650E74683E09AA6C9135F3ACCEE5 /* UITapImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UITapImageView.m; path = Pod/Classes/UITapImageView.m; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A6E303CA86FE7A33777CC223F54B34CE /* UITapImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UITapImageView.m; path = Pod/Classes/UITapImageView.m; sourceTree = "<group>"; };
+		A46F9ECF625A04EFEA2A2DD9DAA03461 /* ADeanAppDelegate+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ADeanAppDelegate+Hook.h"; path = "Pod/Classes/ADeanAppDelegate+Hook.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF9F83E59DB22EA96B428EBBE7F77142 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFFFD4D7036735DB71C8066E92EDBC9E /* WjyTestClasses.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WjyTestClasses.xcconfig; sourceTree = "<group>"; };
-		DEC131D4BD0F065D4DDC6021A28965EC /* WjyTestClasses-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WjyTestClasses-dummy.m"; sourceTree = "<group>"; };
+		EC6150E35763DFC74811B43993484FF5 /* UITapImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UITapImageView.h; path = Pod/Classes/UITapImageView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +80,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		31CC3501E4B0E631996AD923A5D1E0E4 /* Pods */ = {
+		25514A8062C396E2C890F890D5B7A381 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EB3EB204C54FE4ED152C2B499660C6D8 /* WjyTestClasses */,
+				2478A52989351CFB556E163B51D5FC58 /* WjyTestClasses.xcconfig */,
+				7860529E10648B1D5755C8D99B0B1D16 /* WjyTestClasses-dummy.m */,
+				2A13418EB815F0C47D15A58A0BAF3932 /* WjyTestClasses-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/WjyTestClasses";
 			sourceTree = "<group>";
 		};
 		3656E07F300DD86BE7A4505936FBFDE2 /* Products */ = {
@@ -89,26 +100,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		792CB196D9F133F339C16FAA5A88443B /* WjyTestClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A46F9ECF625A04EFEA2A2DD9DAA03461 /* ADeanAppDelegate+Hook.h */,
+				60246B56790402312AD9F0223BADF284 /* ADeanAppDelegate+Hook.m */,
+				3DFE182610621D38BB49DD51EE82F033 /* ADeanMethodSwizzling.h */,
+				880D6DBA97950136EAFF00E42AC0543A /* ADeanMethodSwizzling.m */,
+				EC6150E35763DFC74811B43993484FF5 /* UITapImageView.h */,
+				9338650E74683E09AA6C9135F3ACCEE5 /* UITapImageView.m */,
+				25514A8062C396E2C890F890D5B7A381 /* Support Files */,
+			);
+			path = WjyTestClasses;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				31CC3501E4B0E631996AD923A5D1E0E4 /* Pods */,
+				F0328E899D88E7D6768EE57181A5FD3E /* Pods */,
 				3656E07F300DD86BE7A4505936FBFDE2 /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		969C9F0C3031C82153C7286100E06AAA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CFFFD4D7036735DB71C8066E92EDBC9E /* WjyTestClasses.xcconfig */,
-				DEC131D4BD0F065D4DDC6021A28965EC /* WjyTestClasses-dummy.m */,
-				7D061FF51A15279A7A61D71EEA615791 /* WjyTestClasses-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WjyTestClasses";
 			sourceTree = "<group>";
 		};
 		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
@@ -142,24 +156,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EB3EB204C54FE4ED152C2B499660C6D8 /* WjyTestClasses */ = {
+		F0328E899D88E7D6768EE57181A5FD3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				21EF4720862769B657C3A20CBADFB9AF /* UITapImageView.h */,
-				A6E303CA86FE7A33777CC223F54B34CE /* UITapImageView.m */,
-				969C9F0C3031C82153C7286100E06AAA /* Support Files */,
+				792CB196D9F133F339C16FAA5A88443B /* WjyTestClasses */,
 			);
-			path = WjyTestClasses;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A4D822AB0862CC5735998A0E00E01CA4 /* Headers */ = {
+		A9C6FFFD580F08E68FACF59E4A64345D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1AC568281F56B95CE8710A99598ADDC /* UITapImageView.h in Headers */,
+				5052C88C09C0F477DEAB0DA1CFBC2BAE /* ADeanAppDelegate+Hook.h in Headers */,
+				E385F71137969ADAE9BA2CB80C2B132E /* ADeanMethodSwizzling.h in Headers */,
+				9BEC54029630780A36A42D44E38A655C /* UITapImageView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,9 +201,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ECEAA21099ECF4CA371C37D970D411C /* Build configuration list for PBXNativeTarget "WjyTestClasses" */;
 			buildPhases = (
-				38DA39F70334700973C02CF7631D620C /* Sources */,
+				1D3FDED78CB33CC8AC4EB82B28235227 /* Sources */,
 				D8B47000EDF9BCD335DDBCA105566F27 /* Frameworks */,
-				A4D822AB0862CC5735998A0E00E01CA4 /* Headers */,
+				A9C6FFFD580F08E68FACF59E4A64345D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -236,12 +250,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38DA39F70334700973C02CF7631D620C /* Sources */ = {
+		1D3FDED78CB33CC8AC4EB82B28235227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F159A6C308B26DB622B94483C2BB17F /* UITapImageView.m in Sources */,
-				E33C23941F78177455FE09A7D14D2D6F /* WjyTestClasses-dummy.m in Sources */,
+				C82D371CE541C45922060A150A032A32 /* ADeanAppDelegate+Hook.m in Sources */,
+				1A62A14A5CE2A8BA0F7A04243E064679 /* ADeanMethodSwizzling.m in Sources */,
+				05C5E73C3487E4A21359E2B7D786D39A /* UITapImageView.m in Sources */,
+				D87D1E1A2DD0EA140389F9FB3F56097C /* WjyTestClasses-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +326,7 @@
 		};
 		139F9B4A1C8285CFA06D05EF22643825 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFFFD4D7036735DB71C8066E92EDBC9E /* WjyTestClasses.xcconfig */;
+			baseConfigurationReference = 2478A52989351CFB556E163B51D5FC58 /* WjyTestClasses.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/WjyTestClasses/WjyTestClasses-prefix.pch";
@@ -328,7 +344,7 @@
 		};
 		75468F7481AEC8E910E18821A2F75D3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFFFD4D7036735DB71C8066E92EDBC9E /* WjyTestClasses.xcconfig */;
+			baseConfigurationReference = 2478A52989351CFB556E163B51D5FC58 /* WjyTestClasses.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/WjyTestClasses/WjyTestClasses-prefix.pch";
