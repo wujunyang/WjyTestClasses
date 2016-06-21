@@ -10,6 +10,4 @@
 
 @interface jiaAppDelegate (GtDelegate)
 
--(void)gtShow;
-
 @end

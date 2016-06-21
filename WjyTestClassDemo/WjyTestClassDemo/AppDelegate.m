@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "jiaAppDelegate+GtDelegate.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 

@@ -1,0 +1,1 @@
+../../../WjyTestClasses/Pod/Classes/jiaAppDelegate+GtDelegate.h
