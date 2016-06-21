@@ -1,0 +1,1 @@
+../../../jiaCore/Pod/Classes/ADeanAppDelegate+Hook.h

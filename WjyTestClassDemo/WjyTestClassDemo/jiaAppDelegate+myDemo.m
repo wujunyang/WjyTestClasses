@@ -1,16 +1,14 @@
 //
-//  ADeanAppDelegate+Hook.m
-//  AppDelegateOptimization
+//  jiaAppDelegate+myDemo.m
+//  WjyTestClassDemo
 //
-//  Created by wujunyang dean.
-//  Copyright © 2016年 ADean. All rights reserved.
+//  Created by wujunyang on 16/6/21.
+//  Copyright © 2016年 wujunyang. All rights reserved.
 //
 
-#import "ADeanMethodSwizzling.h"
-#import "ADeanAppDelegate+Hook.h"
+#import "jiaAppDelegate+myDemo.h"
 
-
-@implementation AppDelegate (Hook)
+@implementation jiaAppDelegate (myDemo)
 
 + (void)load
 {
@@ -22,21 +20,18 @@
 
 + (void)adean_AppDelegateHook
 {
-    if(NSClassFromString(@"AppDelegate"))
-    {
-    SwizzlingMethod(NSClassFromString(@"AppDelegate"), @selector(application:didFinishLaunchingWithOptions:), @selector(adean_application:didFinishLaunchingWithOptions:));
-    SwizzlingMethod(NSClassFromString(@"AppDelegate"), @selector(application:handleOpenURL:), @selector(adean_application:handleOpenURL:));
-    SwizzlingMethod(NSClassFromString(@"AppDelegate"), @selector(application:openURL:sourceApplication:annotation:), @selector(adean_application:openURL:sourceApplication:annotation:));
-    SwizzlingMethod(NSClassFromString(@"AppDelegate"), @selector(applicationDidReceiveMemoryWarning:), @selector(adean_applicationDidReceiveMemoryWarning:));
-    }
+    SwizzlingMethod([jiaAppDelegate class], @selector(application:didFinishLaunchingWithOptions:), @selector(adean_application:didFinishLaunchingWithOptions:));
+    SwizzlingMethod([jiaAppDelegate class], @selector(application:handleOpenURL:), @selector(adean_application:handleOpenURL:));
+    SwizzlingMethod([jiaAppDelegate class], @selector(application:openURL:sourceApplication:annotation:), @selector(adean_application:openURL:sourceApplication:annotation:));
+    SwizzlingMethod([jiaAppDelegate class], @selector(applicationDidReceiveMemoryWarning:), @selector(adean_applicationDidReceiveMemoryWarning:));
+    
 }
 
 #pragma mark - Method Swizzling
 - (BOOL)adean_application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    NSLog(@"我加载友盟了");
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        
+        NSLog(@"我是工程里面内容");
     });
     
     return [self adean_application:application didFinishLaunchingWithOptions:launchOptions];
@@ -57,8 +52,5 @@
     
     [self adean_applicationDidReceiveMemoryWarning:application];
 }
-
-#pragma mark
-#pragma mark Other Action
 
 @end

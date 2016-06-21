@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 ADean. All rights reserved.
 //
 
-#import "ADeanMethodSwizzling.h"
+#import "jiaMethodSwizzling.h"
 #import <objc/runtime.h>
 NSDictionary *GetPropertyListOfClass(Class cls);
 //根据类名称获取类

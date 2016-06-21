@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		34214C4D1D15A513006205EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34214C4C1D15A513006205EA /* main.m */; };
-		34214C501D15A513006205EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34214C4F1D15A513006205EA /* AppDelegate.m */; };
 		34214C531D15A513006205EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34214C521D15A513006205EA /* ViewController.m */; };
 		34214C561D15A513006205EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34214C541D15A513006205EA /* Main.storyboard */; };
 		34214C581D15A513006205EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34214C571D15A513006205EA /* Assets.xcassets */; };
 		34214C5B1D15A513006205EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34214C591D15A513006205EA /* LaunchScreen.storyboard */; };
 		34214C661D15A513006205EA /* WjyTestClassDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34214C651D15A513006205EA /* WjyTestClassDemoTests.m */; };
 		34214C711D15A513006205EA /* WjyTestClassDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34214C701D15A513006205EA /* WjyTestClassDemoUITests.m */; };
+		346E2CA11D19333300D83BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 346E2CA01D19333300D83BCF /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		F3739514C961ADD1149CFD51 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E472C2CC74434ABBDF0E4BAE /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,8 +40,6 @@
 		330EC01A3F5BBA605087B637 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		34214C481D15A513006205EA /* WjyTestClassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WjyTestClassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34214C4C1D15A513006205EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		34214C4E1D15A513006205EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		34214C4F1D15A513006205EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		34214C511D15A513006205EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		34214C521D15A513006205EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34214C551D15A513006205EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,8 @@
 		34214C6C1D15A513006205EA /* WjyTestClassDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WjyTestClassDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34214C701D15A513006205EA /* WjyTestClassDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WjyTestClassDemoUITests.m; sourceTree = "<group>"; };
 		34214C721D15A513006205EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346E2C9F1D19333300D83BCF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		346E2CA01D19333300D83BCF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E472C2CC74434ABBDF0E4BAE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -117,8 +117,8 @@
 		34214C4A1D15A513006205EA /* WjyTestClassDemo */ = {
 			isa = PBXGroup;
 			children = (
-				34214C4E1D15A513006205EA /* AppDelegate.h */,
-				34214C4F1D15A513006205EA /* AppDelegate.m */,
+				346E2C9F1D19333300D83BCF /* AppDelegate.h */,
+				346E2CA01D19333300D83BCF /* AppDelegate.m */,
 				34214C511D15A513006205EA /* ViewController.h */,
 				34214C521D15A513006205EA /* ViewController.m */,
 				34214C541D15A513006205EA /* Main.storyboard */,
@@ -346,8 +346,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34214C531D15A513006205EA /* ViewController.m in Sources */,
-				34214C501D15A513006205EA /* AppDelegate.m in Sources */,
 				34214C4D1D15A513006205EA /* main.m in Sources */,
+				346E2CA11D19333300D83BCF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

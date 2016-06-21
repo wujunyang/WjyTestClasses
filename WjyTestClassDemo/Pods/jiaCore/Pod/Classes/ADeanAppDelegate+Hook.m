@@ -2,15 +2,15 @@
 //  ADeanAppDelegate+Hook.m
 //  AppDelegateOptimization
 //
-//  Created by wujunyang dean.
-//  Copyright © 2016年 ADean. All rights reserved.
+//  Created by adorkable dean on 15/11/10.
+//  Copyright © 2015年 ADean. All rights reserved.
 //
 
-#import "ADeanMethodSwizzling.h"
+#import "jiaMethodSwizzling.h"
 #import "ADeanAppDelegate+Hook.h"
 
 
-@implementation AppDelegate (Hook)
+@implementation jiaAppDelegate (Hook)
 
 + (void)load
 {
@@ -22,19 +22,18 @@
 
 + (void)adean_AppDelegateHook
 {
-    SwizzlingMethod([AppDelegate class], @selector(application:didFinishLaunchingWithOptions:), @selector(adean_application:didFinishLaunchingWithOptions:));
-    SwizzlingMethod([AppDelegate class], @selector(application:handleOpenURL:), @selector(adean_application:handleOpenURL:));
-    SwizzlingMethod([AppDelegate class], @selector(application:openURL:sourceApplication:annotation:), @selector(adean_application:openURL:sourceApplication:annotation:));
-    SwizzlingMethod([AppDelegate class], @selector(applicationDidReceiveMemoryWarning:), @selector(adean_applicationDidReceiveMemoryWarning:));
+    SwizzlingMethod([jiaAppDelegate class], @selector(application:didFinishLaunchingWithOptions:), @selector(adean_application:didFinishLaunchingWithOptions:));
+    SwizzlingMethod([jiaAppDelegate class], @selector(application:handleOpenURL:), @selector(adean_application:handleOpenURL:));
+    SwizzlingMethod([jiaAppDelegate class], @selector(application:openURL:sourceApplication:annotation:), @selector(adean_application:openURL:sourceApplication:annotation:));
+    SwizzlingMethod([jiaAppDelegate class], @selector(applicationDidReceiveMemoryWarning:), @selector(adean_applicationDidReceiveMemoryWarning:));
     
 }
 
 #pragma mark - Method Swizzling
 - (BOOL)adean_application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    NSLog(@"我加载友盟了");
+
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        
+        NSLog(@"我来的");
     });
     
     return [self adean_application:application didFinishLaunchingWithOptions:launchOptions];

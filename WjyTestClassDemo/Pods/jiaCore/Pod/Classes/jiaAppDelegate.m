@@ -1,20 +1,18 @@
 //
-//  AppDelegate.m
+//  jiaAppDelegate.m
 //  HHLog
 //
-//  Created by CatchZeng on 15/9/29.
-//  Copyright © 2015年 qingningxiezuo. All rights reserved.
+//  Created by wujunyang on 16/6/21.
+//  Copyright © 2016年 wujunyang. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "jiaAppDelegate.h"
 
-
-@interface AppDelegate ()
+@interface jiaAppDelegate()
 
 @end
 
-@implementation AppDelegate
-
+@implementation jiaAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     

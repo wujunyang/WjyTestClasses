@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WjyTestClasses"
-  s.version      = "0.0.5"
+  s.version      = "0.0.7"
   s.summary      = "这是一个简单的测试运用类"
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wujunyang/WjyTestClasses.git", :tag => "0.0.5" }
+  s.source       = { :git => "https://github.com/wujunyang/WjyTestClasses.git", :tag => "0.0.7" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -131,9 +131,7 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
-
-
+   s.dependency "jiaCore"
 
 
 end

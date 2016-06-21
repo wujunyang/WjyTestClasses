@@ -5,4 +5,4 @@ source ‘https://github.com/wujunyang/WjySpecs.git’        #私有仓库地�
 
 platform :ios, "7.0"
 
-pod "WjyTestClasses"
+pod "jiaCore"

@@ -1,10 +1,10 @@
 PODS:
-  - WjyTestClasses (0.0.4)
+  - jiaCore (0.0.3)
 
 DEPENDENCIES:
-  - WjyTestClasses
+  - jiaCore
 
 SPEC CHECKSUMS:
-  WjyTestClasses: 049b3f1b2145c3935fbb80ea51d1c36bd549a5c2
+  jiaCore: abeb03df12794094babd2ec1b56b29a604c3684e
 
 COCOAPODS: 0.39.0
