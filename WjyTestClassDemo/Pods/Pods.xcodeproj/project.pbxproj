@@ -7,101 +7,175 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		103EEDD8D801F0DD7566A06B0DDAFD8F /* WjyTestClasses-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DB05D30232DD782BCAA1974FCE172C /* WjyTestClasses-dummy.m */; };
-		21E1F4B4F5749E26745C3CA86E289D16 /* jiaCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E93E967B26A6FB414270C5D3C6AC87 /* jiaCore-dummy.m */; };
-		28F4A31269DCB314A0F0089178B50CF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		395F803E3820C3FED0CE4F4CF01606B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		660C8C9EF7713B538F13A475D83DB46B /* ADeanAppDelegate+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF3F51D05073D535D3EF5526EDDD666 /* ADeanAppDelegate+Hook.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8000607710D77E54FF6443C0E118B02F /* ADeanAppDelegate+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B62E357F571B99004414FB132A7F8B1 /* ADeanAppDelegate+Hook.m */; };
-		8D884CB6A973C997D834341CF1BCFD7E /* UITapImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FB83B03244BC4498C159F1B0DEED61C /* UITapImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		930AF3C8A4658305DC206C605988DE20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		9B409423BCBE6735E42D0A7612017CF2 /* jiaAppDelegate+GtDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BADAB964B5CD18EC487298839137CEC4 /* jiaAppDelegate+GtDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A275C3F6A5684B94FE8DB8553460DFE1 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		B5F61B5E76ED1190B626848BE3724F1E /* jiaMethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = C1603867CF4602EAB7340A54932754A2 /* jiaMethodSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD9249713DACC6003D1F87D89A515B72 /* jiaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B05D80B03AF9AE8EEB71ADAF6B6B515 /* jiaAppDelegate.m */; };
-		C4B4D65FD579C088AE386CA2E0747889 /* jiaAppDelegate+GtDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01192E54CC6251AB25BC23CF88A0FEC7 /* jiaAppDelegate+GtDelegate.m */; };
-		F344B1B3D5F749038630AF1A007AEFBE /* jiaMethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = BD34BC8B7C5E4750C3C9485939BEAD41 /* jiaMethodSwizzling.m */; };
-		F3724349ED0F62357806216A882CA426 /* UITapImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 333FE2D6C8D4435E85A9155C5D6A59C2 /* UITapImageView.m */; };
-		F646E53F7DAD97BBA90353150687C9FE /* jiaAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 330B29E45529EDFAF0F540C1CB2FE093 /* jiaAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C7EFEF4ADA97522D77AFFCDE7D52B7E /* XAspect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D03557F3C55DBFA89B049EEF6098619 /* XAspect-dummy.m */; };
+		15728341CCC899B35E5E87C847DBA88A /* XAspect-GeTuiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA0AA39D899C758E3449285C5FD587C /* XAspect-GeTuiAppDelegate.m */; };
+		18045636A804F6AC9C1F5F185F3C1F83 /* GeTuiSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 70AED699F06ACCEAF6A3485FEE07B579 /* GeTuiSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A1EF4EA61278703980E37DE7BC379B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74353E7C3E3C8FEAA9A9716B40B4B701 /* UIKit.framework */; };
+		3402789C1D2E2B2E00BDDABC /* jiaAppDelegate+myGt.h in Headers */ = {isa = PBXBuildFile; fileRef = 340278981D2E2B2E00BDDABC /* jiaAppDelegate+myGt.h */; settings = {ASSET_TAGS = (); }; };
+		3402789D1D2E2B2E00BDDABC /* jiaAppDelegate+myGt.m in Sources */ = {isa = PBXBuildFile; fileRef = 340278991D2E2B2E00BDDABC /* jiaAppDelegate+myGt.m */; settings = {ASSET_TAGS = (); }; };
+		3402789E1D2E2B2E00BDDABC /* jiaGTConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3402789A1D2E2B2E00BDDABC /* jiaGTConfigManager.h */; settings = {ASSET_TAGS = (); }; };
+		3402789F1D2E2B2E00BDDABC /* jiaGTConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3402789B1D2E2B2E00BDDABC /* jiaGTConfigManager.m */; settings = {ASSET_TAGS = (); }; };
+		35CFFAD97FAC801573842EB7ADF30D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6645460C36FDD1B817785B6EDD6B6E3 /* Foundation.framework */; };
+		4038AF8BEA176EC0B75DD8E0ACDFFF56 /* XACrystallization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61194090F6F5AC9A414240234CBB0913 /* XACrystallization.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4172474AE59D83DE01A4F8E8CE4B51D3 /* jiaAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7038142F5B861A643F54B70D94A79687 /* jiaAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4278EE1F21F2E2C3D00D916315A47B08 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD409A850612456DF38A290F4157EBF3 /* AVFoundation.framework */; };
+		46BFE4262943A138A72CD6EB94880FB5 /* XACExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 9995C62259BE2E4FAFF16F58D9A5F133 /* XACExtensions.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5086319B94B5250B29C55CDC418B05AA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AE4224BAC0544C6196CC85101184D2 /* SystemConfiguration.framework */; };
+		556CD9D685743042CD387D5517B4829A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1129C2B51B99EAF8060EB16D94656ABA /* Security.framework */; };
+		596466AD8E2F744B883F627864B6406E /* XAObjcMetaprogramming.h in Headers */ = {isa = PBXBuildFile; fileRef = 86CA3C5C8E09407CE1219641B498E537 /* XAObjcMetaprogramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BA05EBD1020152BCB861354531ADC91 /* QiJIAGTSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5616C4667E9994AE1FC3B5137A7161AD /* QiJIAGTSDK-dummy.m */; };
+		6E404FCC403EF02D4E1BBDA0D6A75BBA /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		6FD38F7F289229AB42108E21AF4CF3EC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A23E569C11E80CBD6BBE76DC8CF492A /* CFNetwork.framework */; };
+		82BDB376452AF0F97E61B2406A8B68B1 /* XACrystallization.h in Headers */ = {isa = PBXBuildFile; fileRef = 496B186EAAC79C4D9EBF33CD0299FC00 /* XACrystallization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85EC8CECC8279D7A480D027A111D5FD6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 304119CD36E628AF0E0CD05DB2609D62 /* CoreLocation.framework */; };
+		85EC97D80953FB291E6C5637ECC5AC63 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EBC02BC71CFED7695BE91F37686CB0 /* JavaScriptCore.framework */; };
+		85EF27DDF8A43A8C4EAF508F648CFE11 /* jiaCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F01BA9FFDB4DB4A52D400544508DAF4 /* jiaCore-dummy.m */; };
+		8A52E5BC72C3F138E8E17146FB1C77EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6645460C36FDD1B817785B6EDD6B6E3 /* Foundation.framework */; };
+		8E03C547AB3805671D065474B8EE74F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6645460C36FDD1B817785B6EDD6B6E3 /* Foundation.framework */; };
+		9068AE4304787FEF36DD7539FE1BD697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6645460C36FDD1B817785B6EDD6B6E3 /* Foundation.framework */; };
+		906B8B080A87F4987BED74712B86E4FE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5D617E5ED0318CF5F58A658E120C46 /* CoreTelephony.framework */; };
+		BF5430879CDDC2321226F5E028FA62A6 /* XAspect.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED3023F266EBB3EEBEF58F6AC1A131A /* XAspect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5B827607A70A56B8C267B3902AFD1E0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57AA7A916A98D0F4CCC6DFF81AF0605F /* CoreBluetooth.framework */; };
+		CBBAC69D45A5325F5E96432A3E41D4F6 /* XAFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3014963A3481D77CA7CE1C810A77212C /* XAFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA444CF788DB590D2193871BAA4BAE75 /* XAWeaveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32451538BD8E3A483331C0E59AD4F269 /* XAWeaveHandler.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E36AE6557B2D8BD9B9CDBAC0C4832735 /* XAWeaveHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B556F4DE91B952410836F7141856920D /* XAWeaveHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD8269760CEF3A54BC0B053EC790D6C /* XADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC1152189A9B18C0165B76F4046BB63 /* XADebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F08B1641F4F3EFA819207A64D23F0A7F /* jiaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACAE63D28AAFD50C995BDD2333F6C3 /* jiaAppDelegate.m */; };
+		F5F6BA133BEB94EF313AFBA7320237EB /* XAExtObjcMetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7764DE2ED06FA0801396F01E34F6EBD5 /* XAExtObjcMetamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98288C886E7D13040832A71BDA74B82 /* XACExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3F3897225BB83FB1EBE52AB51C4C7E /* XACExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0FAC4262893F4FF291B802CD309C5F75 /* PBXContainerItemProxy */ = {
+		58A5614A3218623A9F18FB7E98F1B95D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0650996C4A1733510FC09A0F43B3706C;
-			remoteInfo = WjyTestClasses;
-		};
-		43D345A6C72ED4E498523FE7B8FEDF74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93A03C96C1D5E1E660D6243FF5B30358;
+			remoteGlobalIDString = AFDF690B695B21A73595DC8C4575E06B;
 			remoteInfo = jiaCore;
 		};
-		7439E1865E7D935EBA43E740F0278B22 /* PBXContainerItemProxy */ = {
+		9E68240065DC0BAAAF76E066DFFC88EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 93A03C96C1D5E1E660D6243FF5B30358;
+			remoteGlobalIDString = AFDF690B695B21A73595DC8C4575E06B;
 			remoteInfo = jiaCore;
+		};
+		B2B086A9D83EB9A92D768F86AFFCC5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E09294E76995B2C216741FBCEFF11EF;
+			remoteInfo = XAspect;
+		};
+		DC5FB0F7719602A4312CFA84AF5A5C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E09294E76995B2C216741FBCEFF11EF;
+			remoteInfo = XAspect;
+		};
+		EAA6F64A1DF3DA01F30733E6DF5441C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E2ECDDB49AEEE9155962CF07603EFE;
+			remoteInfo = QiJIAGTSDK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01192E54CC6251AB25BC23CF88A0FEC7 /* jiaAppDelegate+GtDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "jiaAppDelegate+GtDelegate.m"; path = "Pod/Classes/jiaAppDelegate+GtDelegate.m"; sourceTree = "<group>"; };
-		020771A054CAAA0B1308AC25AA1BD69F /* libjiaCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libjiaCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4856C765FDEAD444606A95EE8CD31F /* jiaCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jiaCore-prefix.pch"; sourceTree = "<group>"; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		18E93E967B26A6FB414270C5D3C6AC87 /* jiaCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "jiaCore-dummy.m"; sourceTree = "<group>"; };
+		1129C2B51B99EAF8060EB16D94656ABA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		189A8A8B9AB604D300BAAB48FFCB00BF /* libQiJIAGTSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQiJIAGTSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDF98ECB4F36CE8F4856D46C5C7DEA2 /* jiaCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jiaCore.xcconfig; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		2AF3F51D05073D535D3EF5526EDDD666 /* ADeanAppDelegate+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ADeanAppDelegate+Hook.h"; path = "Pod/Classes/ADeanAppDelegate+Hook.h"; sourceTree = "<group>"; };
-		330B29E45529EDFAF0F540C1CB2FE093 /* jiaAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jiaAppDelegate.h; path = Pod/Classes/jiaAppDelegate.h; sourceTree = "<group>"; };
-		333FE2D6C8D4435E85A9155C5D6A59C2 /* UITapImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UITapImageView.m; path = Pod/Classes/UITapImageView.m; sourceTree = "<group>"; };
+		2CFC1576613B1F4DA995059762DAF49B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED3023F266EBB3EEBEF58F6AC1A131A /* XAspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAspect.h; path = XAspect/XAspect.h; sourceTree = "<group>"; };
+		3014963A3481D77CA7CE1C810A77212C /* XAFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAFoundation.h; path = XAspect/Macros/XAFoundation.h; sourceTree = "<group>"; };
+		304119CD36E628AF0E0CD05DB2609D62 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		32451538BD8E3A483331C0E59AD4F269 /* XAWeaveHandler.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = XAWeaveHandler.cpp; path = XAspect/Core/XAWeaveHandler.cpp; sourceTree = "<group>"; };
+		3348C8A1B23549EBA49404820A6DD5C4 /* libjiaCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libjiaCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		340278981D2E2B2E00BDDABC /* jiaAppDelegate+myGt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "jiaAppDelegate+myGt.h"; path = "Pod/jiaAppDelegate+myGt.h"; sourceTree = "<group>"; };
+		340278991D2E2B2E00BDDABC /* jiaAppDelegate+myGt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "jiaAppDelegate+myGt.m"; path = "Pod/jiaAppDelegate+myGt.m"; sourceTree = "<group>"; };
+		3402789A1D2E2B2E00BDDABC /* jiaGTConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jiaGTConfigManager.h; path = Pod/jiaGTConfigManager.h; sourceTree = "<group>"; };
+		3402789B1D2E2B2E00BDDABC /* jiaGTConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = jiaGTConfigManager.m; path = Pod/jiaGTConfigManager.m; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3AD8394484CB013835061FFB8EC2207E /* libWjyTestClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWjyTestClasses.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		42C6F338A4C71BE4BD66AC1A18769C12 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8F4D7E823A31E6D9EBEDD0D129FD49 /* XAspect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XAspect-prefix.pch"; sourceTree = "<group>"; };
+		42ACAE63D28AAFD50C995BDD2333F6C3 /* jiaAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = jiaAppDelegate.m; path = Pod/JiaCore/jiaAppDelegate.m; sourceTree = "<group>"; };
+		496B186EAAC79C4D9EBF33CD0299FC00 /* XACrystallization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACrystallization.h; path = XAspect/Core/XACrystallization.h; sourceTree = "<group>"; };
+		4DDEF68CE788AD34D92CD13BA3FA35E4 /* libGeTuiSdk-1.4.2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libGeTuiSdk-1.4.2.a"; sourceTree = "<group>"; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		5CDAF98D425FD618C3DAD4063E49395E /* jiaCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jiaCore.xcconfig; sourceTree = "<group>"; };
-		5FB83B03244BC4498C159F1B0DEED61C /* UITapImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UITapImageView.h; path = Pod/Classes/UITapImageView.h; sourceTree = "<group>"; };
+		4F3F3897225BB83FB1EBE52AB51C4C7E /* XACExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XACExtensions.h; path = XAspect/Core/XACExtensions.h; sourceTree = "<group>"; };
+		5616C4667E9994AE1FC3B5137A7161AD /* QiJIAGTSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QiJIAGTSDK-dummy.m"; sourceTree = "<group>"; };
+		57AA7A916A98D0F4CCC6DFF81AF0605F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		57B5350DE1247D2DE024E12F22C7466D /* QiJIAGTSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QiJIAGTSDK-prefix.pch"; sourceTree = "<group>"; };
+		5F01BA9FFDB4DB4A52D400544508DAF4 /* jiaCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "jiaCore-dummy.m"; sourceTree = "<group>"; };
+		61194090F6F5AC9A414240234CBB0913 /* XACrystallization.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = XACrystallization.cpp; path = XAspect/Core/XACrystallization.cpp; sourceTree = "<group>"; };
+		63EBC02BC71CFED7695BE91F37686CB0 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		6E60657C42E435C8369EA0B2F2D9CE37 /* WjyTestClasses-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WjyTestClasses-prefix.pch"; sourceTree = "<group>"; };
-		96206E7CCE7DE929D4031833FE9748A7 /* jiaCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jiaCore-prefix.pch"; sourceTree = "<group>"; };
+		6A67CC045722100277F0D45BDA64DB1E /* libXAspect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXAspect.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D03557F3C55DBFA89B049EEF6098619 /* XAspect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XAspect-dummy.m"; sourceTree = "<group>"; };
+		7038142F5B861A643F54B70D94A79687 /* jiaAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jiaAppDelegate.h; path = Pod/JiaCore/jiaAppDelegate.h; sourceTree = "<group>"; };
+		70AED699F06ACCEAF6A3485FEE07B579 /* GeTuiSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeTuiSdk.h; path = Pod/GeTuiSdk.h; sourceTree = "<group>"; };
+		74353E7C3E3C8FEAA9A9716B40B4B701 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7764DE2ED06FA0801396F01E34F6EBD5 /* XAExtObjcMetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAExtObjcMetamacros.h; path = XAspect/Macros/XAExtObjcMetamacros.h; sourceTree = "<group>"; };
+		7A23E569C11E80CBD6BBE76DC8CF492A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		86CA3C5C8E09407CE1219641B498E537 /* XAObjcMetaprogramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAObjcMetaprogramming.h; path = XAspect/Macros/XAObjcMetaprogramming.h; sourceTree = "<group>"; };
+		8FE2FBA98DF2E203E3926583CBC63381 /* QiJIAGTSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QiJIAGTSDK.xcconfig; sourceTree = "<group>"; };
+		9096AAA404C385E5DA9E3DACB21F049D /* XAspect.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XAspect.xcconfig; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		9B05D80B03AF9AE8EEB71ADAF6B6B515 /* jiaAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = jiaAppDelegate.m; path = Pod/Classes/jiaAppDelegate.m; sourceTree = "<group>"; };
-		9B62E357F571B99004414FB132A7F8B1 /* ADeanAppDelegate+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ADeanAppDelegate+Hook.m"; path = "Pod/Classes/ADeanAppDelegate+Hook.m"; sourceTree = "<group>"; };
+		9995C62259BE2E4FAFF16F58D9A5F133 /* XACExtensions.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = XACExtensions.c; path = XAspect/Core/XACExtensions.c; sourceTree = "<group>"; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		B3DB05D30232DD782BCAA1974FCE172C /* WjyTestClasses-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WjyTestClasses-dummy.m"; sourceTree = "<group>"; };
+		A6645460C36FDD1B817785B6EDD6B6E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B556F4DE91B952410836F7141856920D /* XAWeaveHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XAWeaveHandler.h; path = XAspect/Core/XAWeaveHandler.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BADAB964B5CD18EC487298839137CEC4 /* jiaAppDelegate+GtDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "jiaAppDelegate+GtDelegate.h"; path = "Pod/Classes/jiaAppDelegate+GtDelegate.h"; sourceTree = "<group>"; };
-		BD34BC8B7C5E4750C3C9485939BEAD41 /* jiaMethodSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = jiaMethodSwizzling.m; path = Pod/Classes/jiaMethodSwizzling.m; sourceTree = "<group>"; };
-		C1603867CF4602EAB7340A54932754A2 /* jiaMethodSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jiaMethodSwizzling.h; path = Pod/Classes/jiaMethodSwizzling.h; sourceTree = "<group>"; };
-		F78706A30FB360F218384FBD9376E539 /* WjyTestClasses.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WjyTestClasses.xcconfig; sourceTree = "<group>"; };
+		BD409A850612456DF38A290F4157EBF3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		BFA0AA39D899C758E3449285C5FD587C /* XAspect-GeTuiAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XAspect-GeTuiAppDelegate.m"; path = "Pod/XAspect-GeTuiAppDelegate.m"; sourceTree = "<group>"; };
+		DBC1152189A9B18C0165B76F4046BB63 /* XADebugMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XADebugMacros.h; path = XAspect/Macros/XADebugMacros.h; sourceTree = "<group>"; };
+		F7AE4224BAC0544C6196CC85101184D2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		FE5D617E5ED0318CF5F58A658E120C46 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B8E7830AA90B1869134F70335B4DCC3 /* Frameworks */ = {
+		101504452BE61FE98FF2B58AFF16F4C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28F4A31269DCB314A0F0089178B50CF1 /* Foundation.framework in Frameworks */,
+				9068AE4304787FEF36DD7539FE1BD697 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37C7C4E33B689CAE6E8C792EEC36E67D /* Frameworks */ = {
+		77A3469FD28BC4939C75C09D3B9FE422 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				395F803E3820C3FED0CE4F4CF01606B0 /* Foundation.framework in Frameworks */,
+				8E03C547AB3805671D065474B8EE74F6 /* Foundation.framework in Frameworks */,
+				1A1EF4EA61278703980E37DE7BC379B7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BAB5A3D3415EA33939BF01336B0B480 /* Frameworks */ = {
+		A79B8F79058CB7600280CD2BBF5745BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				930AF3C8A4658305DC206C605988DE20 /* Foundation.framework in Frameworks */,
+				4278EE1F21F2E2C3D00D916315A47B08 /* AVFoundation.framework in Frameworks */,
+				6FD38F7F289229AB42108E21AF4CF3EC /* CFNetwork.framework in Frameworks */,
+				C5B827607A70A56B8C267B3902AFD1E0 /* CoreBluetooth.framework in Frameworks */,
+				85EC8CECC8279D7A480D027A111D5FD6 /* CoreLocation.framework in Frameworks */,
+				906B8B080A87F4987BED74712B86E4FE /* CoreTelephony.framework in Frameworks */,
+				8A52E5BC72C3F138E8E17146FB1C77EC /* Foundation.framework in Frameworks */,
+				85EC97D80953FB291E6C5637ECC5AC63 /* JavaScriptCore.framework in Frameworks */,
+				556CD9D685743042CD387D5517B4829A /* Security.framework in Frameworks */,
+				5086319B94B5250B29C55CDC418B05AA /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F252C28302ABD75353EA790BE5F5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CFFAD97FAC801573842EB7ADF30D14 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,56 +190,137 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4A62D86665DBA9F72217F9AD4DC31C01 /* Pods */ = {
+		251405372107BFEA1702E6FCEEF7954E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB927893D6928BD0582E031BFD3194BB /* jiaCore */,
-				DB48DB1CD04393BB1F4BC3A7B5579737 /* WjyTestClasses */,
+				3348C8A1B23549EBA49404820A6DD5C4 /* libjiaCore.a */,
+				2CFC1576613B1F4DA995059762DAF49B /* libPods.a */,
+				189A8A8B9AB604D300BAAB48FFCB00BF /* libQiJIAGTSDK.a */,
+				6A67CC045722100277F0D45BDA64DB1E /* libXAspect.a */,
 			);
-			name = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		7A28F2A7307A1263FD48B4E268E6AAB3 /* Support Files */ = {
+		436A471C45300486F116700483711ACC /* JiaCores */ = {
 			isa = PBXGroup;
 			children = (
-				5CDAF98D425FD618C3DAD4063E49395E /* jiaCore.xcconfig */,
-				18E93E967B26A6FB414270C5D3C6AC87 /* jiaCore-dummy.m */,
-				96206E7CCE7DE929D4031833FE9748A7 /* jiaCore-prefix.pch */,
+				7038142F5B861A643F54B70D94A79687 /* jiaAppDelegate.h */,
+				42ACAE63D28AAFD50C995BDD2333F6C3 /* jiaAppDelegate.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/jiaCore";
+			name = JiaCores;
+			sourceTree = "<group>";
+		};
+		5AA88944435A60FCA8F89EDC7E2D48DF /* QiJIAGTSDK */ = {
+			isa = PBXGroup;
+			children = (
+				340278981D2E2B2E00BDDABC /* jiaAppDelegate+myGt.h */,
+				340278991D2E2B2E00BDDABC /* jiaAppDelegate+myGt.m */,
+				3402789A1D2E2B2E00BDDABC /* jiaGTConfigManager.h */,
+				3402789B1D2E2B2E00BDDABC /* jiaGTConfigManager.m */,
+				70AED699F06ACCEAF6A3485FEE07B579 /* GeTuiSdk.h */,
+				BFA0AA39D899C758E3449285C5FD587C /* XAspect-GeTuiAppDelegate.m */,
+				8EA88DE606C2FD214E39FC6CB914FB75 /* Frameworks */,
+				87BD5B522550B25F921F372F14245F60 /* Support Files */,
+			);
+			path = QiJIAGTSDK;
+			sourceTree = "<group>";
+		};
+		5CF39A686084A900782A7A8F846A2BA4 /* jiaCore */ = {
+			isa = PBXGroup;
+			children = (
+				436A471C45300486F116700483711ACC /* JiaCores */,
+				FACA6E681C4278B9524315EF13C8E52A /* Support Files */,
+			);
+			path = jiaCore;
+			sourceTree = "<group>";
+		};
+		6CA3B60544C33591366CCCA580A3EB60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BD409A850612456DF38A290F4157EBF3 /* AVFoundation.framework */,
+				7A23E569C11E80CBD6BBE76DC8CF492A /* CFNetwork.framework */,
+				57AA7A916A98D0F4CCC6DFF81AF0605F /* CoreBluetooth.framework */,
+				304119CD36E628AF0E0CD05DB2609D62 /* CoreLocation.framework */,
+				FE5D617E5ED0318CF5F58A658E120C46 /* CoreTelephony.framework */,
+				A6645460C36FDD1B817785B6EDD6B6E3 /* Foundation.framework */,
+				63EBC02BC71CFED7695BE91F37686CB0 /* JavaScriptCore.framework */,
+				1129C2B51B99EAF8060EB16D94656ABA /* Security.framework */,
+				F7AE4224BAC0544C6196CC85101184D2 /* SystemConfiguration.framework */,
+				74353E7C3E3C8FEAA9A9716B40B4B701 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B9B81FB86CC2E912E589D3BA21084E3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9995C62259BE2E4FAFF16F58D9A5F133 /* XACExtensions.c */,
+				4F3F3897225BB83FB1EBE52AB51C4C7E /* XACExtensions.h */,
+				61194090F6F5AC9A414240234CBB0913 /* XACrystallization.cpp */,
+				496B186EAAC79C4D9EBF33CD0299FC00 /* XACrystallization.h */,
+				32451538BD8E3A483331C0E59AD4F269 /* XAWeaveHandler.cpp */,
+				B556F4DE91B952410836F7141856920D /* XAWeaveHandler.h */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4A62D86665DBA9F72217F9AD4DC31C01 /* Pods */,
-				A7AC9859A70736FD9EB1558FEF61BE5F /* Products */,
+				876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */,
+				7EE65A4448C9B9E64FA3E925F7A7281D /* Pods */,
+				251405372107BFEA1702E6FCEEF7954E /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A6EC9A605F0C36161825C21EA249B6F3 /* Support Files */ = {
+		7EE65A4448C9B9E64FA3E925F7A7281D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F78706A30FB360F218384FBD9376E539 /* WjyTestClasses.xcconfig */,
-				B3DB05D30232DD782BCAA1974FCE172C /* WjyTestClasses-dummy.m */,
-				6E60657C42E435C8369EA0B2F2D9CE37 /* WjyTestClasses-prefix.pch */,
+				5CF39A686084A900782A7A8F846A2BA4 /* jiaCore */,
+				5AA88944435A60FCA8F89EDC7E2D48DF /* QiJIAGTSDK */,
+				CB9B2DDC8A934C87A5BE3CF6EC1F5B8D /* XAspect */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/WjyTestClasses";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		A7AC9859A70736FD9EB1558FEF61BE5F /* Products */ = {
+		849216D4AEA7532979CA82F7DA39CCCE /* Macros */ = {
 			isa = PBXGroup;
 			children = (
-				020771A054CAAA0B1308AC25AA1BD69F /* libjiaCore.a */,
-				42C6F338A4C71BE4BD66AC1A18769C12 /* libPods.a */,
-				3AD8394484CB013835061FFB8EC2207E /* libWjyTestClasses.a */,
+				DBC1152189A9B18C0165B76F4046BB63 /* XADebugMacros.h */,
+				7764DE2ED06FA0801396F01E34F6EBD5 /* XAExtObjcMetamacros.h */,
+				3014963A3481D77CA7CE1C810A77212C /* XAFoundation.h */,
+				86CA3C5C8E09407CE1219641B498E537 /* XAObjcMetaprogramming.h */,
 			);
-			name = Products;
+			name = Macros;
+			sourceTree = "<group>";
+		};
+		876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CA3B60544C33591366CCCA580A3EB60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87BD5B522550B25F921F372F14245F60 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FE2FBA98DF2E203E3926583CBC63381 /* QiJIAGTSDK.xcconfig */,
+				5616C4667E9994AE1FC3B5137A7161AD /* QiJIAGTSDK-dummy.m */,
+				57B5350DE1247D2DE024E12F22C7466D /* QiJIAGTSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QiJIAGTSDK";
+			sourceTree = "<group>";
+		};
+		8EA88DE606C2FD214E39FC6CB914FB75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DDEF68CE788AD34D92CD13BA3FA35E4 /* libGeTuiSdk-1.4.2.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
@@ -183,124 +338,148 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CB9B2DDC8A934C87A5BE3CF6EC1F5B8D /* XAspect */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				2ED3023F266EBB3EEBEF58F6AC1A131A /* XAspect.h */,
+				7B9B81FB86CC2E912E589D3BA21084E3 /* Core */,
+				849216D4AEA7532979CA82F7DA39CCCE /* Macros */,
+				F01D76BE0D11CEE509CA07077EC9D948 /* Support Files */,
 			);
-			name = Frameworks;
+			path = XAspect;
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		F01D76BE0D11CEE509CA07077EC9D948 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+				9096AAA404C385E5DA9E3DACB21F049D /* XAspect.xcconfig */,
+				6D03557F3C55DBFA89B049EEF6098619 /* XAspect-dummy.m */,
+				3C8F4D7E823A31E6D9EBEDD0D129FD49 /* XAspect-prefix.pch */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/XAspect";
 			sourceTree = "<group>";
 		};
-		CB927893D6928BD0582E031BFD3194BB /* jiaCore */ = {
+		FACA6E681C4278B9524315EF13C8E52A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2AF3F51D05073D535D3EF5526EDDD666 /* ADeanAppDelegate+Hook.h */,
-				9B62E357F571B99004414FB132A7F8B1 /* ADeanAppDelegate+Hook.m */,
-				330B29E45529EDFAF0F540C1CB2FE093 /* jiaAppDelegate.h */,
-				9B05D80B03AF9AE8EEB71ADAF6B6B515 /* jiaAppDelegate.m */,
-				C1603867CF4602EAB7340A54932754A2 /* jiaMethodSwizzling.h */,
-				BD34BC8B7C5E4750C3C9485939BEAD41 /* jiaMethodSwizzling.m */,
-				7A28F2A7307A1263FD48B4E268E6AAB3 /* Support Files */,
+				1EDF98ECB4F36CE8F4856D46C5C7DEA2 /* jiaCore.xcconfig */,
+				5F01BA9FFDB4DB4A52D400544508DAF4 /* jiaCore-dummy.m */,
+				0D4856C765FDEAD444606A95EE8CD31F /* jiaCore-prefix.pch */,
 			);
-			path = jiaCore;
-			sourceTree = "<group>";
-		};
-		DB48DB1CD04393BB1F4BC3A7B5579737 /* WjyTestClasses */ = {
-			isa = PBXGroup;
-			children = (
-				BADAB964B5CD18EC487298839137CEC4 /* jiaAppDelegate+GtDelegate.h */,
-				01192E54CC6251AB25BC23CF88A0FEC7 /* jiaAppDelegate+GtDelegate.m */,
-				5FB83B03244BC4498C159F1B0DEED61C /* UITapImageView.h */,
-				333FE2D6C8D4435E85A9155C5D6A59C2 /* UITapImageView.m */,
-				A6EC9A605F0C36161825C21EA249B6F3 /* Support Files */,
-			);
-			path = WjyTestClasses;
+			name = "Support Files";
+			path = "../Target Support Files/jiaCore";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		08C47D48FDB95C3A7DB1FE75C2EA12F1 /* Headers */ = {
+		8BB9BFBC459123A55DA565DF55506368 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660C8C9EF7713B538F13A475D83DB46B /* ADeanAppDelegate+Hook.h in Headers */,
-				F646E53F7DAD97BBA90353150687C9FE /* jiaAppDelegate.h in Headers */,
-				B5F61B5E76ED1190B626848BE3724F1E /* jiaMethodSwizzling.h in Headers */,
+				4172474AE59D83DE01A4F8E8CE4B51D3 /* jiaAppDelegate.h in Headers */,
+				3402789E1D2E2B2E00BDDABC /* jiaGTConfigManager.h in Headers */,
+				3402789C1D2E2B2E00BDDABC /* jiaAppDelegate+myGt.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12B1125F30428E2B51FD088192D7EB5E /* Headers */ = {
+		B7FE7236CB9368CC6CCB34BC17202EDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B409423BCBE6735E42D0A7612017CF2 /* jiaAppDelegate+GtDelegate.h in Headers */,
-				8D884CB6A973C997D834341CF1BCFD7E /* UITapImageView.h in Headers */,
+				18045636A804F6AC9C1F5F185F3C1F83 /* GeTuiSdk.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E668938DE1AC71B8E3D256B5FE3A27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98288C886E7D13040832A71BDA74B82 /* XACExtensions.h in Headers */,
+				82BDB376452AF0F97E61B2406A8B68B1 /* XACrystallization.h in Headers */,
+				EFD8269760CEF3A54BC0B053EC790D6C /* XADebugMacros.h in Headers */,
+				F5F6BA133BEB94EF313AFBA7320237EB /* XAExtObjcMetamacros.h in Headers */,
+				CBBAC69D45A5325F5E96432A3E41D4F6 /* XAFoundation.h in Headers */,
+				596466AD8E2F744B883F627864B6406E /* XAObjcMetaprogramming.h in Headers */,
+				BF5430879CDDC2321226F5E028FA62A6 /* XAspect.h in Headers */,
+				E36AE6557B2D8BD9B9CDBAC0C4832735 /* XAWeaveHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0650996C4A1733510FC09A0F43B3706C /* WjyTestClasses */ = {
+		1E90033CBAB70E313307A66B2FDCC0A3 /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEB21C3C62239082948A40232F92D955 /* Build configuration list for PBXNativeTarget "WjyTestClasses" */;
+			buildConfigurationList = 102BB1A154E84DD176E3BE7D720A410A /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				51C7F2D33BD118CFC238FA25D7D76CBA /* Sources */,
-				37C7C4E33B689CAE6E8C792EEC36E67D /* Frameworks */,
-				12B1125F30428E2B51FD088192D7EB5E /* Headers */,
+				DDF8AF0CBA34AC37E76C3ED7566A3EB8 /* Sources */,
+				101504452BE61FE98FF2B58AFF16F4C8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F7D9C973A014D6481EA81B6C2090ABA4 /* PBXTargetDependency */,
-			);
-			name = WjyTestClasses;
-			productName = WjyTestClasses;
-			productReference = 3AD8394484CB013835061FFB8EC2207E /* libWjyTestClasses.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		93A03C96C1D5E1E660D6243FF5B30358 /* jiaCore */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2EE9C8F9E55C27265C760983BD0AC34 /* Build configuration list for PBXNativeTarget "jiaCore" */;
-			buildPhases = (
-				ECDA647917782103DCA2F9EE6901FB74 /* Sources */,
-				5BAB5A3D3415EA33939BF01336B0B480 /* Frameworks */,
-				08C47D48FDB95C3A7DB1FE75C2EA12F1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = jiaCore;
-			productName = jiaCore;
-			productReference = 020771A054CAAA0B1308AC25AA1BD69F /* libjiaCore.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		F6805D9A82DF55F451E1D0490C1BC49B /* Pods */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0026F4A90F01237B869C7C54900A2000 /* Build configuration list for PBXNativeTarget "Pods" */;
-			buildPhases = (
-				771E7A22546EB562F88172E9E8CEE143 /* Sources */,
-				2B8E7830AA90B1869134F70335B4DCC3 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				790D44EA5CDA59F24869C362EDCB03D8 /* PBXTargetDependency */,
-				2BE3E2CD3404156E455A9B6260D1B9BD /* PBXTargetDependency */,
+				F97E77428B595F876F86D2839161E498 /* PBXTargetDependency */,
+				AA78000E196DFD6E79090B5F8A9A47B5 /* PBXTargetDependency */,
+				C6F20722721692632755BE3B78C88A82 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = 42C6F338A4C71BE4BD66AC1A18769C12 /* libPods.a */;
+			productReference = 2CFC1576613B1F4DA995059762DAF49B /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6E09294E76995B2C216741FBCEFF11EF /* XAspect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05FFBD946A35BEB7FB61E18A13C56A3 /* Build configuration list for PBXNativeTarget "XAspect" */;
+			buildPhases = (
+				33B8C0A41F1661EDD3BE65B9B0255724 /* Sources */,
+				E9F252C28302ABD75353EA790BE5F5A9 /* Frameworks */,
+				E4E668938DE1AC71B8E3D256B5FE3A27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XAspect;
+			productName = XAspect;
+			productReference = 6A67CC045722100277F0D45BDA64DB1E /* libXAspect.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AFDF690B695B21A73595DC8C4575E06B /* jiaCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACCE733A082F8AA172FF09EF60A84437 /* Build configuration list for PBXNativeTarget "jiaCore" */;
+			buildPhases = (
+				DB9EF965CBE2E026283BE40C0345005A /* Sources */,
+				77A3469FD28BC4939C75C09D3B9FE422 /* Frameworks */,
+				8BB9BFBC459123A55DA565DF55506368 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				101E1B38A71F41A6853DE1EEBD5770AC /* PBXTargetDependency */,
+			);
+			name = jiaCore;
+			productName = jiaCore;
+			productReference = 3348C8A1B23549EBA49404820A6DD5C4 /* libjiaCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1E2ECDDB49AEEE9155962CF07603EFE /* QiJIAGTSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D8DD589BA2C17CEA96CE2E667A42EF /* Build configuration list for PBXNativeTarget "QiJIAGTSDK" */;
+			buildPhases = (
+				A2DBF7BB7BB283363B663E8521E8DB16 /* Sources */,
+				A79B8F79058CB7600280CD2BBF5745BF /* Frameworks */,
+				B7FE7236CB9368CC6CCB34BC17202EDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B849F31CFBA18642AD8F6DD54E678A08 /* PBXTargetDependency */,
+			);
+			name = QiJIAGTSDK;
+			productName = QiJIAGTSDK;
+			productReference = 189A8A8B9AB604D300BAAB48FFCB00BF /* libQiJIAGTSDK.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -320,71 +499,112 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A7AC9859A70736FD9EB1558FEF61BE5F /* Products */;
+			productRefGroup = 251405372107BFEA1702E6FCEEF7954E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93A03C96C1D5E1E660D6243FF5B30358 /* jiaCore */,
-				F6805D9A82DF55F451E1D0490C1BC49B /* Pods */,
-				0650996C4A1733510FC09A0F43B3706C /* WjyTestClasses */,
+				AFDF690B695B21A73595DC8C4575E06B /* jiaCore */,
+				1E90033CBAB70E313307A66B2FDCC0A3 /* Pods */,
+				F1E2ECDDB49AEEE9155962CF07603EFE /* QiJIAGTSDK */,
+				6E09294E76995B2C216741FBCEFF11EF /* XAspect */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		51C7F2D33BD118CFC238FA25D7D76CBA /* Sources */ = {
+		33B8C0A41F1661EDD3BE65B9B0255724 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B4D65FD579C088AE386CA2E0747889 /* jiaAppDelegate+GtDelegate.m in Sources */,
-				F3724349ED0F62357806216A882CA426 /* UITapImageView.m in Sources */,
-				103EEDD8D801F0DD7566A06B0DDAFD8F /* WjyTestClasses-dummy.m in Sources */,
+				46BFE4262943A138A72CD6EB94880FB5 /* XACExtensions.c in Sources */,
+				4038AF8BEA176EC0B75DD8E0ACDFFF56 /* XACrystallization.cpp in Sources */,
+				0C7EFEF4ADA97522D77AFFCDE7D52B7E /* XAspect-dummy.m in Sources */,
+				DA444CF788DB590D2193871BAA4BAE75 /* XAWeaveHandler.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		771E7A22546EB562F88172E9E8CEE143 /* Sources */ = {
+		A2DBF7BB7BB283363B663E8521E8DB16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A275C3F6A5684B94FE8DB8553460DFE1 /* Pods-dummy.m in Sources */,
+				6BA05EBD1020152BCB861354531ADC91 /* QiJIAGTSDK-dummy.m in Sources */,
+				15728341CCC899B35E5E87C847DBA88A /* XAspect-GeTuiAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECDA647917782103DCA2F9EE6901FB74 /* Sources */ = {
+		DB9EF965CBE2E026283BE40C0345005A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8000607710D77E54FF6443C0E118B02F /* ADeanAppDelegate+Hook.m in Sources */,
-				BD9249713DACC6003D1F87D89A515B72 /* jiaAppDelegate.m in Sources */,
-				21E1F4B4F5749E26745C3CA86E289D16 /* jiaCore-dummy.m in Sources */,
-				F344B1B3D5F749038630AF1A007AEFBE /* jiaMethodSwizzling.m in Sources */,
+				3402789D1D2E2B2E00BDDABC /* jiaAppDelegate+myGt.m in Sources */,
+				F08B1641F4F3EFA819207A64D23F0A7F /* jiaAppDelegate.m in Sources */,
+				85EF27DDF8A43A8C4EAF508F648CFE11 /* jiaCore-dummy.m in Sources */,
+				3402789F1D2E2B2E00BDDABC /* jiaGTConfigManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF8AF0CBA34AC37E76C3ED7566A3EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E404FCC403EF02D4E1BBDA0D6A75BBA /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2BE3E2CD3404156E455A9B6260D1B9BD /* PBXTargetDependency */ = {
+		101E1B38A71F41A6853DE1EEBD5770AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XAspect;
+			target = 6E09294E76995B2C216741FBCEFF11EF /* XAspect */;
+			targetProxy = B2B086A9D83EB9A92D768F86AFFCC5B0 /* PBXContainerItemProxy */;
+		};
+		AA78000E196DFD6E79090B5F8A9A47B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XAspect;
+			target = 6E09294E76995B2C216741FBCEFF11EF /* XAspect */;
+			targetProxy = DC5FB0F7719602A4312CFA84AF5A5C06 /* PBXContainerItemProxy */;
+		};
+		B849F31CFBA18642AD8F6DD54E678A08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = jiaCore;
-			target = 93A03C96C1D5E1E660D6243FF5B30358 /* jiaCore */;
-			targetProxy = 43D345A6C72ED4E498523FE7B8FEDF74 /* PBXContainerItemProxy */;
+			target = AFDF690B695B21A73595DC8C4575E06B /* jiaCore */;
+			targetProxy = 58A5614A3218623A9F18FB7E98F1B95D /* PBXContainerItemProxy */;
 		};
-		790D44EA5CDA59F24869C362EDCB03D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WjyTestClasses;
-			target = 0650996C4A1733510FC09A0F43B3706C /* WjyTestClasses */;
-			targetProxy = 0FAC4262893F4FF291B802CD309C5F75 /* PBXContainerItemProxy */;
-		};
-		F7D9C973A014D6481EA81B6C2090ABA4 /* PBXTargetDependency */ = {
+		C6F20722721692632755BE3B78C88A82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = jiaCore;
-			target = 93A03C96C1D5E1E660D6243FF5B30358 /* jiaCore */;
-			targetProxy = 7439E1865E7D935EBA43E740F0278B22 /* PBXContainerItemProxy */;
+			target = AFDF690B695B21A73595DC8C4575E06B /* jiaCore */;
+			targetProxy = 9E68240065DC0BAAAF76E066DFFC88EF /* PBXContainerItemProxy */;
+		};
+		F97E77428B595F876F86D2839161E498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QiJIAGTSDK;
+			target = F1E2ECDDB49AEEE9155962CF07603EFE /* QiJIAGTSDK */;
+			targetProxy = EAA6F64A1DF3DA01F30733E6DF5441C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		042E22B623CA509C520161BE2AAE2541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDF98ECB4F36CE8F4856D46C5C7DEA2 /* jiaCore.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/jiaCore/jiaCore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		052A17875CB827423D627183396CEB60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -419,7 +639,7 @@
 			};
 			name = Release;
 		};
-		3FE9992CF226895C68B123CE07762182 /* Release */ = {
+		24B39BDE5860C3152C61FA8667A0EF0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
 			buildSettings = {
@@ -436,12 +656,12 @@
 			};
 			name = Release;
 		};
-		79AA04C6A70B84706B78F91860821C8C /* Release */ = {
+		43AFC7BE957706CC20E8F686B39B61E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F78706A30FB360F218384FBD9376E539 /* WjyTestClasses.xcconfig */;
+			baseConfigurationReference = 9096AAA404C385E5DA9E3DACB21F049D /* XAspect.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WjyTestClasses/WjyTestClasses-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/XAspect/XAspect-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -453,6 +673,77 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		4515F450C19C9D7F9A1B9B04ED166DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDF98ECB4F36CE8F4856D46C5C7DEA2 /* jiaCore.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/jiaCore/jiaCore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4A9A2B24152AA270D8B7B023799228AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		772C6911AD670C6E723A258810BE98C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE2FBA98DF2E203E3926583CBC63381 /* QiJIAGTSDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QiJIAGTSDK/QiJIAGTSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7809B69BE3824576C40408A2A858115D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE2FBA98DF2E203E3926583CBC63381 /* QiJIAGTSDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QiJIAGTSDK/QiJIAGTSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -493,65 +784,12 @@
 			};
 			name = Debug;
 		};
-		B9AA3EB838965E6295FCDE18A0E86E48 /* Debug */ = {
+		B4B55060AB5AD5D154C21A1E4D18CF37 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 9096AAA404C385E5DA9E3DACB21F049D /* XAspect.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C751F804E6EA5238BD92224D9C95D8A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CDAF98D425FD618C3DAD4063E49395E /* jiaCore.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/jiaCore/jiaCore-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		EA0A5D28C165FF5180A28B722BCAD344 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CDAF98D425FD618C3DAD4063E49395E /* jiaCore.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/jiaCore/jiaCore-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		FDA876377B88F37D6B841D64036DF429 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F78706A30FB360F218384FBD9376E539 /* WjyTestClasses.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WjyTestClasses/WjyTestClasses-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/XAspect/XAspect-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -567,11 +805,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0026F4A90F01237B869C7C54900A2000 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		102BB1A154E84DD176E3BE7D720A410A /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9AA3EB838965E6295FCDE18A0E86E48 /* Debug */,
-				3FE9992CF226895C68B123CE07762182 /* Release */,
+				4A9A2B24152AA270D8B7B023799228AE /* Debug */,
+				24B39BDE5860C3152C61FA8667A0EF0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -585,20 +823,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2EE9C8F9E55C27265C760983BD0AC34 /* Build configuration list for PBXNativeTarget "jiaCore" */ = {
+		ACCE733A082F8AA172FF09EF60A84437 /* Build configuration list for PBXNativeTarget "jiaCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C751F804E6EA5238BD92224D9C95D8A0 /* Debug */,
-				EA0A5D28C165FF5180A28B722BCAD344 /* Release */,
+				042E22B623CA509C520161BE2AAE2541 /* Debug */,
+				4515F450C19C9D7F9A1B9B04ED166DA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEB21C3C62239082948A40232F92D955 /* Build configuration list for PBXNativeTarget "WjyTestClasses" */ = {
+		E05FFBD946A35BEB7FB61E18A13C56A3 /* Build configuration list for PBXNativeTarget "XAspect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDA876377B88F37D6B841D64036DF429 /* Debug */,
-				79AA04C6A70B84706B78F91860821C8C /* Release */,
+				B4B55060AB5AD5D154C21A1E4D18CF37 /* Debug */,
+				43AFC7BE957706CC20E8F686B39B61E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D8DD589BA2C17CEA96CE2E667A42EF /* Build configuration list for PBXNativeTarget "QiJIAGTSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7809B69BE3824576C40408A2A858115D /* Debug */,
+				772C6911AD670C6E723A258810BE98C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

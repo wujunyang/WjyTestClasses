@@ -1,0 +1,1 @@
+../../../QiJIAGTSDK/Pod/jiaAppDelegate+myGt.h

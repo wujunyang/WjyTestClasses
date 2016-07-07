@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "jiaAppDelegate.h"
+#import "jiaGTConfigManager.h"
 
-@interface AppDelegate :jiaAppDelegate
+
+@interface AppDelegate :jiaAppDelegate<UIAlertViewDelegate>
 
 @end
 

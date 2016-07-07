@@ -1,0 +1,1 @@
+../../../QiJIAGTSDK/Pod/jiaGTConfigManager.h

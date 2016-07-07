@@ -1,14 +1,23 @@
 PODS:
-  - jiaCore (0.0.3)
-  - WjyTestClasses (0.0.7):
+  - jiaCore (0.0.19):
+    - jiaCore/JiaCores (= 0.0.19)
+  - jiaCore/JiaCores (0.0.19):
+    - XAspect
+  - QiJIAGTSDK (1.4.4):
     - jiaCore
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
 
 DEPENDENCIES:
-  - jiaCore
-  - WjyTestClasses
+  - QiJIAGTSDK
 
 SPEC CHECKSUMS:
-  jiaCore: abeb03df12794094babd2ec1b56b29a604c3684e
-  WjyTestClasses: 80d2a33d271956ecfa89c3fc7a23ae2c20b5ae51
+  jiaCore: 33b8b15ba9e9c43ce68266e6958bd49460dcbeed
+  QiJIAGTSDK: 4553775a2b602df66e40fc5a643fb5cc4af5bd6f
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
 
 COCOAPODS: 0.39.0

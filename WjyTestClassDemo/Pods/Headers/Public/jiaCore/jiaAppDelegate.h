@@ -1,1 +1,1 @@
-../../../jiaCore/Pod/Classes/jiaAppDelegate.h
+../../../jiaCore/Pod/JiaCore/jiaAppDelegate.h

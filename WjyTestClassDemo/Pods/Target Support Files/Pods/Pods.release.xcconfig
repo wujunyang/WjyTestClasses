@@ -1,5 +1,6 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/WjyTestClasses" "${PODS_ROOT}/Headers/Public/jiaCore"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/WjyTestClasses" -isystem "${PODS_ROOT}/Headers/Public/jiaCore"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"WjyTestClasses" -l"jiaCore"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/QiJIAGTSDK" "${PODS_ROOT}/Headers/Public/XAspect" "${PODS_ROOT}/Headers/Public/jiaCore"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/QiJIAGTSDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/QiJIAGTSDK" -isystem "${PODS_ROOT}/Headers/Public/XAspect" -isystem "${PODS_ROOT}/Headers/Public/jiaCore"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"GeTuiSdk-1.4.2" -l"QiJIAGTSDK" -l"XAspect" -l"c++" -l"jiaCore" -l"sqlite3.0" -l"z" -framework "AVFoundation" -framework "CFNetwork" -framework "CoreBluetooth" -framework "CoreLocation" -framework "CoreTelephony" -framework "JavaScriptCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
 PODS_ROOT = ${SRCROOT}/Pods
