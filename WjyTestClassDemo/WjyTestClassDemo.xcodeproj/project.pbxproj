@@ -15,6 +15,22 @@
 		34214C661D15A513006205EA /* WjyTestClassDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34214C651D15A513006205EA /* WjyTestClassDemoTests.m */; };
 		34214C711D15A513006205EA /* WjyTestClassDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34214C701D15A513006205EA /* WjyTestClassDemoUITests.m */; };
 		346E2CA11D19333300D83BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 346E2CA01D19333300D83BCF /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C36D1D338D5500D88DED /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C3631D338D5500D88DED /* CYLPlusButton.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C36E1D338D5500D88DED /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C3651D338D5500D88DED /* CYLTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C36F1D338D5500D88DED /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C3671D338D5500D88DED /* CYLTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C3701D338D5500D88DED /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C3691D338D5500D88DED /* UIViewController+CYLTabBarControllerExtention.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C3711D338D5500D88DED /* Routable.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C36C1D338D5500D88DED /* Routable.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C3751D338F1800D88DED /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C3741D338F1800D88DED /* AViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C3781D338F2B00D88DED /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C3771D338F2B00D88DED /* BViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C37B1D338F3C00D88DED /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C37A1D338F3C00D88DED /* CViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C37E1D338F4B00D88DED /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C37D1D338F4B00D88DED /* DViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C3811D338F8A00D88DED /* MPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C3801D338F8A00D88DED /* MPHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C3831D33906100D88DED /* Public.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A1C3821D33906100D88DED /* Public.xcassets */; settings = {ASSET_TAGS = (); }; };
+		34A1C3861D33913300D88DED /* EViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C3851D33913300D88DED /* EViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C3891D33919700D88DED /* MPBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C3881D33919700D88DED /* MPBaseNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C38B1D33938600D88DED /* XAspect-RoutableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C38A1D33938600D88DED /* XAspect-RoutableAppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C38E1D33952800D88DED /* detailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C38D1D33952800D88DED /* detailsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		34A1C3911D33A07D00D88DED /* jiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A1C3901D33A07D00D88DED /* jiaViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F3739514C961ADD1149CFD51 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E472C2CC74434ABBDF0E4BAE /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +70,36 @@
 		34214C721D15A513006205EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		346E2C9F1D19333300D83BCF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		346E2CA01D19333300D83BCF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34A1C3621D338D5500D88DED /* CYLPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButton.h; sourceTree = "<group>"; };
+		34A1C3631D338D5500D88DED /* CYLPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButton.m; sourceTree = "<group>"; };
+		34A1C3641D338D5500D88DED /* CYLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBar.h; sourceTree = "<group>"; };
+		34A1C3651D338D5500D88DED /* CYLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBar.m; sourceTree = "<group>"; };
+		34A1C3661D338D5500D88DED /* CYLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarController.h; sourceTree = "<group>"; };
+		34A1C3671D338D5500D88DED /* CYLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarController.m; sourceTree = "<group>"; };
+		34A1C3681D338D5500D88DED /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		34A1C3691D338D5500D88DED /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		34A1C36B1D338D5500D88DED /* Routable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Routable.h; sourceTree = "<group>"; };
+		34A1C36C1D338D5500D88DED /* Routable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Routable.m; sourceTree = "<group>"; };
+		34A1C3731D338F1800D88DED /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		34A1C3741D338F1800D88DED /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		34A1C3761D338F2B00D88DED /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		34A1C3771D338F2B00D88DED /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		34A1C3791D338F3C00D88DED /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		34A1C37A1D338F3C00D88DED /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		34A1C37C1D338F4B00D88DED /* DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
+		34A1C37D1D338F4B00D88DED /* DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
+		34A1C37F1D338F8A00D88DED /* MPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPHomeViewController.h; sourceTree = "<group>"; };
+		34A1C3801D338F8A00D88DED /* MPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPHomeViewController.m; sourceTree = "<group>"; };
+		34A1C3821D33906100D88DED /* Public.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Public.xcassets; sourceTree = "<group>"; };
+		34A1C3841D33913300D88DED /* EViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EViewController.h; sourceTree = "<group>"; };
+		34A1C3851D33913300D88DED /* EViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EViewController.m; sourceTree = "<group>"; };
+		34A1C3871D33919700D88DED /* MPBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPBaseNavigationController.h; sourceTree = "<group>"; };
+		34A1C3881D33919700D88DED /* MPBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPBaseNavigationController.m; sourceTree = "<group>"; };
+		34A1C38A1D33938600D88DED /* XAspect-RoutableAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XAspect-RoutableAppDelegate.m"; sourceTree = "<group>"; };
+		34A1C38C1D33952800D88DED /* detailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailsViewController.h; sourceTree = "<group>"; };
+		34A1C38D1D33952800D88DED /* detailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailsViewController.m; sourceTree = "<group>"; };
+		34A1C38F1D33A07D00D88DED /* jiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jiaViewController.h; sourceTree = "<group>"; };
+		34A1C3901D33A07D00D88DED /* jiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jiaViewController.m; sourceTree = "<group>"; };
 		E472C2CC74434ABBDF0E4BAE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -117,6 +163,9 @@
 		34214C4A1D15A513006205EA /* WjyTestClassDemo */ = {
 			isa = PBXGroup;
 			children = (
+				34A1C3821D33906100D88DED /* Public.xcassets */,
+				34A1C3721D338EEE00D88DED /* ViewController */,
+				34A1C3601D3389C100D88DED /* Vender */,
 				346E2C9F1D19333300D83BCF /* AppDelegate.h */,
 				346E2CA01D19333300D83BCF /* AppDelegate.m */,
 				34214C511D15A513006205EA /* ViewController.h */,
@@ -126,6 +175,7 @@
 				34214C591D15A513006205EA /* LaunchScreen.storyboard */,
 				34214C5C1D15A513006205EA /* Info.plist */,
 				34214C4B1D15A513006205EA /* Supporting Files */,
+				34A1C38A1D33938600D88DED /* XAspect-RoutableAppDelegate.m */,
 			);
 			path = WjyTestClassDemo;
 			sourceTree = "<group>";
@@ -154,6 +204,64 @@
 				34214C721D15A513006205EA /* Info.plist */,
 			);
 			path = WjyTestClassDemoUITests;
+			sourceTree = "<group>";
+		};
+		34A1C3601D3389C100D88DED /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				34A1C3611D338D5500D88DED /* CYLTabBarController */,
+				34A1C36A1D338D5500D88DED /* Routable */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		34A1C3611D338D5500D88DED /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				34A1C3621D338D5500D88DED /* CYLPlusButton.h */,
+				34A1C3631D338D5500D88DED /* CYLPlusButton.m */,
+				34A1C3641D338D5500D88DED /* CYLTabBar.h */,
+				34A1C3651D338D5500D88DED /* CYLTabBar.m */,
+				34A1C3661D338D5500D88DED /* CYLTabBarController.h */,
+				34A1C3671D338D5500D88DED /* CYLTabBarController.m */,
+				34A1C3681D338D5500D88DED /* UIViewController+CYLTabBarControllerExtention.h */,
+				34A1C3691D338D5500D88DED /* UIViewController+CYLTabBarControllerExtention.m */,
+			);
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+		34A1C36A1D338D5500D88DED /* Routable */ = {
+			isa = PBXGroup;
+			children = (
+				34A1C36B1D338D5500D88DED /* Routable.h */,
+				34A1C36C1D338D5500D88DED /* Routable.m */,
+			);
+			path = Routable;
+			sourceTree = "<group>";
+		};
+		34A1C3721D338EEE00D88DED /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				34A1C3731D338F1800D88DED /* AViewController.h */,
+				34A1C3741D338F1800D88DED /* AViewController.m */,
+				34A1C38C1D33952800D88DED /* detailsViewController.h */,
+				34A1C38D1D33952800D88DED /* detailsViewController.m */,
+				34A1C3761D338F2B00D88DED /* BViewController.h */,
+				34A1C3771D338F2B00D88DED /* BViewController.m */,
+				34A1C3791D338F3C00D88DED /* CViewController.h */,
+				34A1C37A1D338F3C00D88DED /* CViewController.m */,
+				34A1C37C1D338F4B00D88DED /* DViewController.h */,
+				34A1C37D1D338F4B00D88DED /* DViewController.m */,
+				34A1C3841D33913300D88DED /* EViewController.h */,
+				34A1C3851D33913300D88DED /* EViewController.m */,
+				34A1C37F1D338F8A00D88DED /* MPHomeViewController.h */,
+				34A1C3801D338F8A00D88DED /* MPHomeViewController.m */,
+				34A1C3871D33919700D88DED /* MPBaseNavigationController.h */,
+				34A1C3881D33919700D88DED /* MPBaseNavigationController.m */,
+				34A1C38F1D33A07D00D88DED /* jiaViewController.h */,
+				34A1C3901D33A07D00D88DED /* jiaViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		4924119A1036F2C4479E4026 /* Frameworks */ = {
@@ -277,6 +385,7 @@
 			files = (
 				34214C5B1D15A513006205EA /* LaunchScreen.storyboard in Resources */,
 				34214C581D15A513006205EA /* Assets.xcassets in Resources */,
+				34A1C3831D33906100D88DED /* Public.xcassets in Resources */,
 				34214C561D15A513006205EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +460,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				34214C531D15A513006205EA /* ViewController.m in Sources */,
+				34A1C3911D33A07D00D88DED /* jiaViewController.m in Sources */,
 				34214C4D1D15A513006205EA /* main.m in Sources */,
+				34A1C38E1D33952800D88DED /* detailsViewController.m in Sources */,
+				34A1C36F1D338D5500D88DED /* CYLTabBarController.m in Sources */,
+				34A1C37E1D338F4B00D88DED /* DViewController.m in Sources */,
+				34A1C3861D33913300D88DED /* EViewController.m in Sources */,
+				34A1C3811D338F8A00D88DED /* MPHomeViewController.m in Sources */,
+				34A1C3781D338F2B00D88DED /* BViewController.m in Sources */,
+				34A1C38B1D33938600D88DED /* XAspect-RoutableAppDelegate.m in Sources */,
+				34A1C3711D338D5500D88DED /* Routable.m in Sources */,
+				34A1C3891D33919700D88DED /* MPBaseNavigationController.m in Sources */,
+				34A1C36D1D338D5500D88DED /* CYLPlusButton.m in Sources */,
+				34A1C36E1D338D5500D88DED /* CYLTabBar.m in Sources */,
+				34A1C3751D338F1800D88DED /* AViewController.m in Sources */,
+				34A1C37B1D338F3C00D88DED /* CViewController.m in Sources */,
+				34A1C3701D338D5500D88DED /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
 				346E2CA11D19333300D83BCF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

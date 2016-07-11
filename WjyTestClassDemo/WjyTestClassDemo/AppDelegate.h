@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "jiaAppDelegate.h"
 #import "jiaGTConfigManager.h"
-
+#import "MPHomeViewController.h"
 
 @interface AppDelegate :jiaAppDelegate<UIAlertViewDelegate>
+
+@property(nonatomic, strong)   MPHomeViewController *homeViewController;
 
 @end
 

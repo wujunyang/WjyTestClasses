@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+
+#import "Routable.h"
 
 @interface AppDelegate ()
 
@@ -24,8 +25,8 @@
     gtConfig.jiaGTAppKey=@"13OydrjIuC8TZliF43hRS5";
     gtConfig.jiaGTAppSecret=@"gdgYQJSUNa5pIQB2icrCt1";
     
-    ViewController *logInVc = [[ViewController alloc]init];
-    self.window.rootViewController = logInVc;
+    self.homeViewController = [[MPHomeViewController alloc] init];
+    [self.window setRootViewController:self.homeViewController];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
@@ -45,6 +46,9 @@
     if (notificationObject) {
         NSNotification *curNotification=(NSNotification *)notificationObject;
         NSLog(@"%@",curNotification.userInfo[@"payload"]);
+        
+        //处理路由信息跳转
+        [self navigationRoutable:curNotification.userInfo[@"payload"]];
         NSLog(@"－－－－－接收到个推通知------");
     }
 }
@@ -64,6 +68,19 @@
         UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"您有一条新消息" message:[NSString stringWithFormat:@"%@,%@",curNotification.userInfo[@"payload"],curNotification.userInfo[@"message"]] delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
         [alert show];
     }
+}
+
+
+//路由处理
+-(void)navigationRoutable:(NSString *)routableStr
+{
+    if (routableStr.length==0) {
+        return;
+    }
+    //跳转
+    UINavigationController *navigationController = ((UITabBarController *)self.homeViewController).selectedViewController;
+    [[Routable sharedRouter] setNavigationController:navigationController];
+    [[Routable sharedRouter] open:routableStr];
 }
 
 
