@@ -19,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
     //配置个推信息
     jiaGTConfigManager *gtConfig=[jiaGTConfigManager sharedInstance];
     gtConfig.jiaGTAppId=@"C83sm0U3xt5D5GUYqkfk53";
@@ -65,8 +67,9 @@
 {
     if (notificationObject) {
         NSNotification *curNotification=(NSNotification *)notificationObject;
-        UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"您有一条新消息" message:[NSString stringWithFormat:@"%@,%@",curNotification.userInfo[@"payload"],curNotification.userInfo[@"message"]] delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
-        [alert show];
+        
+        NSLog(@"%@",curNotification.userInfo[@"message"]);
+        NSLog(@"－－－－－接收到苹果通知------");
     }
 }
 
